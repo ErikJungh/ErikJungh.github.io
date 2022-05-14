@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.plainsight,
+.vegify,
+.quantify,
+.this_website {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  box-shadow: 0 12px 30px rgba(56, 125, 155, 0.77);
+}
+
+.plainsight {
+  background-image: url("/public/images/plainsight-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.vegify {
+  background-image: url("/public/images/vegify-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-top: 100vh;
+}
+.quantify {
+  background-image: url("/public/images/quantify-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-top: 110vh;
+}
+
+.display_container  {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeframe {
+  align-self: flex-start;
+  flex: 3;
+  margin-left: 4vh;
+  margin-top: 7vh;
+  font-size: 65px;
+  color: #fff;
+}
+
+.title_container {
+  flex: 3;
+  display: flex;
+  flex-direction: "row";
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.title_container:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-out;
+}
+
+.title {
+  font-size: 140px;
+  color: #fff;
+}
+
+.title_icon {
+  max-width: 120px;
+  border-radius: 12px;
+  max-height: 120px;
+  margin: 2vh;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+.subtitle {
+  flex: 3;
+  font-size: 40px;
+  color: #fff;
+}
+
+.appcards_container {
+  margin-top: -15%;
+  width: 100%;
+  height: 100vh;
+}

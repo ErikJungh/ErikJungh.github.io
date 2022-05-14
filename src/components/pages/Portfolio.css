@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.plainsight,
+.vegify,
+.quantify,
+.this_website {
+  display: flex;
+  height: 300vh;
+
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.plainsight {
+  background-image: url("/public/images/plainsight-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+
+  font-size: 100px;
+}
+
+.vegify {
+  background-image: url("/public/images/plainsight-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+
+  font-size: 100px;
+}
+
+.quantify {
+  background-image: url("/public/images/quantify-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.appdisplay {
+  margin-bottom: 100vh;
+}
+
+.navbarPortfolio {
+  background-color: transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -12vh;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 900;
+}
+
+.portfolio_navbar_wrapper {
+  margin-top: 12vh;
+}
+
+.portfolio_navbar {
+  position: absolute;
+  right: 25px;
+  width: 25%;
+
+  align-items: center;
+  justify-content: flex-end;
+
+  height: 140px;
+}
+
+.title_icon {
+  max-width: 120px;
+  border-radius: 12px;
+  max-height: 120px;
+  margin: 2vh;
+  margin-right: 5px;
+  margin-left: 5px;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+.title_icon:hover {
+  transform: scale(1.1);
+  transition: all 0.2s linear;
+}
+
+.app_btn_title {
+  font-size: 22;
+  font-weight: 700;
+  color: #fff;
+  background-color: #777;
+  opacity: 0.8;
+  padding: 1px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
