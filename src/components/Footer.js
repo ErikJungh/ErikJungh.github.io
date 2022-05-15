@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="footer_container">
       <h1 className="footer_title">Thanks for visiting my website!</h1>
-      <h1 className="subtitle">You can check out more stuff here</h1>
+      <h1 className="footer_subtitle">You can check out more stuff here</h1>
       <div className="button_container">
         <Button
           destination={"/portfolio"}
