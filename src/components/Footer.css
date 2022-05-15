@@ -1,0 +1,63 @@
+.footer_container {
+  margin-top: 10vh;
+
+  height: 60vh;
+  background-image: url("/public/images/backgroundportfolio.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: left;
+  background-size: fill;
+  background-repeat: no-repeat;
+}
+
+.footer_title {
+  margin-top: 10vh;
+  flex: 2;
+  font-size: 80px;
+  color: #4663ac;
+  padding: 20px;
+}
+
+.subtitle {
+  flex: 2;
+  font-size: 60px;
+  color: #657fc0;
+}
+
+.button_container {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.button_container .btn {
+  margin: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .footer_container {
+    height: 40vh;
+    margin-top: 170vh;
+    bottom: 0;
+  }
+
+  .footer_title {
+    font-size: 30px;
+    padding: 0px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+  .button_container {
+    width: 100vw;
+
+    transform: scale(0.7);
+  }
+}

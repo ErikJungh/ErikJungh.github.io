@@ -9,12 +9,13 @@
 .vegify,
 .quantify,
 .this_website {
+  flex: 1;
   display: flex;
   flex-direction: column;
   height: 80vh;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+
   box-shadow: 0 12px 30px rgba(56, 125, 155, 0.77);
 }
 
@@ -31,7 +32,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  margin-top: 100vh;
 }
 .quantify {
   background-image: url("/public/images/quantify-bg.jpg");
@@ -39,7 +39,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  margin-top: 110vh;
 }
 
 .display_container  {
@@ -61,6 +60,7 @@
   display: flex;
   flex-direction: "row";
   width: 100%;
+
   align-items: center;
   justify-content: center;
 }
@@ -80,6 +80,7 @@
   border-radius: 12px;
   max-height: 120px;
   margin: 2vh;
+
   object-fit: cover;
   transition: all 0.2s linear;
 }
@@ -91,7 +92,34 @@
 }
 
 .appcards_container {
-  margin-top: -15%;
-  width: 100%;
-  height: 100vh;
+  margin-top: -10%;
+}
+
+@media screen and (max-width: 960px) {
+  .subtitle {
+    flex: 3;
+    font-size: 28px;
+    color: #fff;
+  }
+
+  .title {
+    font-size: 60px;
+    color: #fff;
+  }
+
+  .timeframe {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 10vh;
+  }
+  .title_container {
+    flex: 2;
+    display: list-item;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .appcards_container {
+    margin-top: -30%;
+  }
 }
