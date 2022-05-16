@@ -134,4 +134,10 @@
   .navbarPortfolio {
     display: none;
   }
+  .contact_button_container {
+    width: 50vw;
+
+    left: 100px;
+    margin-top: 50vh;
+  }
 }

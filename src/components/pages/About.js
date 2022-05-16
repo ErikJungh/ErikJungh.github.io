@@ -19,11 +19,12 @@ function About() {
           />
           <div className="photo_container">
             <p className="photo_text">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse{" "}
+              I'm an IT student from Sweden who loves software development with
+              a passion. Ever since using family computer as a child I've always
+              found a lot of joy in tinkering with technology. My passion for IT
+              probably began as early as 13 years old when I would host and mod
+              game servers for me and my friends to play on. Ever since then
+              I've never backed down from any sort of IT challenge.
             </p>
           </div>
           <PhotoDisplay
@@ -32,11 +33,11 @@ function About() {
           />
           <div className="photo_container">
             <p className="photo_text">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse{" "}
+              Currently I'm persuing my masters in software development at
+              Uppsala University and also at the same time doing my best to have
+              as much fun as possible. I love making people laugh and have fun
+              and have therefor regularly been hosting competitions and games
+              with special emphasis on creativity and sometimes making a mess.
             </p>
           </div>
           <PhotoDisplay
@@ -45,11 +46,11 @@ function About() {
           />
           <div className="photo_container">
             <p className="photo_text">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse{" "}
+              I'm a very dedicated person with a huge apetite for learning new
+              things and have a tendancy of getting very invested when finding
+              something new that I find interesting. This website for example
+              was written and designed in React.js in 3 days and I had a blast
+              doing so!
             </p>
           </div>
           <Footer

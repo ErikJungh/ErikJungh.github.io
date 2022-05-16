@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "../App.css";
 import "./pages/About.css";
@@ -7,20 +7,46 @@ import { useRef } from "react";
 
 import { InView } from "react-intersection-observer";
 
-function moveCards(refs, enlarge, rotation, translateX, translateY, scale) {
-  if (enlarge) {
-    console.log("enlarging", refs.current.style);
-    refs.current.style.transform = `rotate(0deg) translateX(${translateX}px) translateY(${translateY}px) scale(${scale})`;
-  } else {
-    console.log("shrinking", refs.current.style);
-    refs.current.style.transform = `rotate(${rotation}deg) translateX(0px) translateY(0px) scale(1)`;
-  }
-}
-
 function PhotoDisplay(props) {
   const leftCard = useRef("left");
   const centerCard = useRef("left");
   const rightCard = useRef("left");
+
+  function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  function moveCards(refs, enlarge, rotation, translateX, translateY, scale) {
+    if (showAnimation) {
+      if (enlarge) {
+        refs.current.style.transform = `rotate(0deg) translateX(${translateX}px) translateY(${translateY}px) scale(${scale})`;
+      } else {
+        refs.current.style.transform = `rotate(${rotation}deg) translateX(0px) translateY(0px) scale(1)`;
+      }
+    } else {
+      if (enlarge) {
+        refs.current.style.transform = `rotate(0deg) translateX(${getRndInteger(
+          -25,
+          25
+        )}px) translateY(${translateY}px) scale(0.8)`;
+      } else {
+        refs.current.style.transform = `rotate(${rotation}deg) translateX(0px) translateY(0px) scale(1)`;
+      }
+    }
+  }
+
+  const [showAnimation, toggleShowAnimation] = useState(false);
+
+  const showAnimationToggler = () => {
+    if (window.innerWidth <= 960) {
+      toggleShowAnimation(false);
+    } else {
+      toggleShowAnimation(true);
+    }
+  };
+
+  window.addEventListener("resize", showAnimationToggler);
+
   return (
     <>
       <div className="about_card_container">

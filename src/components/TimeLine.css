@@ -257,11 +257,11 @@
   .job_textbox_container {
     flex: 10;
     margin-left: 2vw;
-    margin-top: 10vw;
-    height: 32vw;
-    width: 60vw;
+    margin-top: 13.5vw;
+    height: 28vw;
+    width: 50vw;
 
-    border-radius: 20px;
+    border-radius: 15px;
   }
 
   .jobtitle {
@@ -269,7 +269,7 @@
     margin-top: 3vw;
     margin-right: 15px;
     text-align: left;
-    font-size: 5vw;
+    font-size: 4vw;
   }
   .joblocation {
     margin-left: 15px;

@@ -101,7 +101,7 @@ function Portfolio(props) {
           subtitle="Find out what people really think"
           timeframe="2022 - In Development"
           about1="Plain Sight is a hobby project that entered development in March
-              2022 which I am currently pursuing along with two friends and very talented developers August BredBerg and Robert Paananen. The
+              2022 which I am currently pursuing along with two friends and very talented developers August Bredberg and Robert Paananen. The
               cross platform mobile application is written by me in React Native
               and the backend is developed with the use of Firebase Firestore
               and Node.js."
@@ -145,7 +145,7 @@ function Portfolio(props) {
         and then helps them make a healthy decision based on their reported allergies. The application
         also allows user to share recipies with eachother and tag and filter them according to their 
         allergies."
-          about2=" The mobile application is written in React Native with the help of Node.js. The intention was 
+          about2=" The mobile application is written mostly by me in React Native with the help of Node.js. The intention was 
         to develop a system which integrated a lot of platforms and databases in an efficient way. Food 
         data is either submitted by users and stored in vegifys own databse written in MongoDB or fetched from
         public api's such as OpenFoodFacts and Dabas."
