@@ -15,11 +15,12 @@ function App() {
         <ScrollToTop>
           <Routes>
             <Route exact path="" element={<Portfolio />}></Route>
-
             <Route exact path="/Portfolio" element={<Portfolio />}></Route>
             <Route exact path="/Experience" element={<Experience />}></Route>
             <Route exact path="/About" element={<About />}></Route>
-            <Route exact path="/*" element={<Portfolio />}></Route>
+            <Route exact path="/*">
+              <Redirect to="/Portfolio" />
+            </Route>
           </Routes>
         </ScrollToTop>
       </Router>
