@@ -1,0 +1,58 @@
+.about_img_container {
+  margin: auto;
+  margin-top: 50vh;
+  width: 100%;
+}
+
+.about_card_container {
+  width: 100vw;
+}
+
+.card_row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo_container {
+  width: 100vw;
+  height: 30vh;
+}
+.photo_text {
+  margin: auto;
+  text-align: center;
+  width: 60vw;
+  font-size: 30px;
+
+  color: black;
+}
+
+.animation_container_left {
+  position: relative;
+  left: 10vw;
+
+  transform: rotate(-10deg);
+  transition: ease-in 0.25s;
+}
+.animation_container_center {
+  transform: rotate(0deg);
+
+  transition: ease-in 0.25s;
+}
+.animation_container_right {
+  position: relative;
+  right: 10vw;
+  transform: rotate(10deg);
+  transition: ease-in 0.25s;
+}
+
+.cards__picture__pic-wrap {
+  position: relative;
+
+  height: 58vh;
+  width: 26vh;
+}

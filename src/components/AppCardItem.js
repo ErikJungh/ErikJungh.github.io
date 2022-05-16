@@ -3,7 +3,8 @@ import { useRef } from "react";
 import { Link } from "react-router-dom";
 
 import { InView } from "react-intersection-observer";
-function playPauseVideo(refs, play) {
+
+function playPauseVideo(refs, play, inView) {
   if (play) {
     refs.vidRef.play();
   } else {
@@ -17,12 +18,14 @@ function AppCardItem(props) {
   return (
     <>
       <li className="cards__item">
-        <Link to={props.path} className="cards__item__link">
+        <div className="cards__item__link">
           <figure className="cards__item__pic-wrap" data-category={props.label}>
             {props.video ? (
               <InView
                 as="div"
-                onChange={(inView, entry) => playPauseVideo(videoRef, entry)}
+                onChange={(inView, entry) =>
+                  playPauseVideo(videoRef, entry, inView)
+                }
               >
                 <video
                   ref={videoRef}
@@ -40,7 +43,7 @@ function AppCardItem(props) {
           <div className="cards__item__info">
             <h5 className="cards__item__text">{props.text}</h5>
           </div>
-        </Link>
+        </div>
       </li>
     </>
   );

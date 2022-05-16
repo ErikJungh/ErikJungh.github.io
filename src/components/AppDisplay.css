@@ -43,6 +43,19 @@
   color: #fff;
 }
 
+.cards__item__pic-wrap::after {
+  content: attr(data-category);
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1f98f4;
+  box-sizing: border-box;
+}
 .display_container  {
   display: flex;
   flex-direction: column;
@@ -65,11 +78,6 @@
 
   align-items: center;
   justify-content: center;
-}
-
-.title_container:hover {
-  transform: scale(1.1);
-  transition: all 0.2s ease-out;
 }
 
 .title {

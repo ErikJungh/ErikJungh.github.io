@@ -5,6 +5,10 @@
   font-family: "PT Sans", sans-serif;
 }
 
+video::-webkit-media-controls {
+  display: none;
+}
+
 .home,
 .about,
 .portfolio_container,
