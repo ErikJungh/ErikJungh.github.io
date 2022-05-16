@@ -49,8 +49,8 @@ function About() {
               I'm a very dedicated person with a huge apetite for learning new
               things and have a tendancy of getting very invested when finding
               something new that I find interesting. This website for example
-              was written and designed in React.js in 3 days and I had a blast
-              doing so!
+              was written and designed as my first ever project in React.js in 3
+              days and I had a blast doing so!
             </p>
           </div>
           <Footer

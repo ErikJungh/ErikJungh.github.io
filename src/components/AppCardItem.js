@@ -1,6 +1,5 @@
 import React from "react";
 import { useRef } from "react";
-import { Link } from "react-router-dom";
 
 import { InView } from "react-intersection-observer";
 
@@ -32,7 +31,6 @@ function AppCardItem(props) {
                   className="cards__item__img"
                   src={props.src}
                   autoPlay
-                  playsinline
                   loop
                   muted
                 />
