@@ -14,10 +14,12 @@ function App() {
         <Navbar />
         <ScrollToTop>
           <Routes>
-            <Route exact path="/Home" element={<Home />}></Route>
+            <Route exact path="" element={<Portfolio />}></Route>
+
             <Route exact path="/Portfolio" element={<Portfolio />}></Route>
             <Route exact path="/Experience" element={<Experience />}></Route>
             <Route exact path="/About" element={<About />}></Route>
+            <Route exact path="/*" element={<Portfolio />}></Route>
           </Routes>
         </ScrollToTop>
       </Router>
