@@ -17,7 +17,8 @@ function AppDisplay(props) {
         <div className="appcards_container">
           <AppCards
             title={props.title}
-            about={props.about}
+            about1={props.about1}
+            about2={props.about2}
             cardsources={props.cardsources}
             cardtexts={props.cardtexts}
             cardtags={props.cardtags}

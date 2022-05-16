@@ -1,6 +1,8 @@
 .cards {
   padding: 4rem;
   background: #fff;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -19,6 +21,7 @@ h1 {
 .cards__wrapper {
   position: relative;
   margin: 50px 0 45px;
+  align-items: center;
 }
 
 .cards__items {
@@ -101,5 +104,13 @@ h1 {
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+
+    flex: 1;
+  }
+
+  .cards__items {
+    display: flex;
+    width: 95vw;
+    flex-direction: row;
   }
 }

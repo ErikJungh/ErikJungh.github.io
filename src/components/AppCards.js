@@ -7,7 +7,7 @@ import { InView } from "react-intersection-observer";
 function scaleDisplay(refs, inView) {
   if (inView) {
     console.log("In view");
-    refs.current.style.transform = "scale(1.05) translateY(20px)";
+    refs.current.style.transform = "scale(1.05) translateY(100px)";
   } else {
     refs.current.style.transform = "scale(1) translateY(0)";
   }
@@ -20,6 +20,7 @@ function AppCards(props) {
       <InView
         as="div"
         onChange={(inView, entry) => scaleDisplay(cardRef, inView)}
+        className="cards_inview"
       >
         <div className="cards__container" ref={cardRef}>
           <div className="cards__wrapper">
@@ -42,7 +43,7 @@ function AppCards(props) {
             </ul>
             <h1>About {props.title}</h1>
             <div className="about_container">
-              <p className="about_text">{props.about}</p>
+              <p className="about_text">{props.about1}</p>
             </div>
             <ul className="cards__items">
               <AppCardItem
@@ -57,13 +58,28 @@ function AppCards(props) {
                 label={props.cardtags[3]}
                 path="Portfolio"
               />
-              <AppCardItem
-                src={props.cardsources[4]}
-                text={props.cardtexts[4]}
-                label={props.cardtags[4]}
-                path="Portfolio"
-              />
+              <div className="third_card">
+                <AppCardItem
+                  src={props.cardsources[4]}
+                  text={props.cardtexts[4]}
+                  label={props.cardtags[4]}
+                  path="Portfolio"
+                />
+              </div>
             </ul>
+            <div className="about_container">
+              <p className="about_text">{props.about2}</p>
+            </div>
+            <div className="solo_card">
+              <ul className="cards__items">
+                <AppCardItem
+                  src={props.cardsources[4]}
+                  text={props.cardtexts[4]}
+                  label={props.cardtags[4]}
+                  path="Portfolio"
+                />
+              </ul>
+            </div>
             {props.cardsources[5] ? (
               <ul className="cards__items">
                 <AppCardItem

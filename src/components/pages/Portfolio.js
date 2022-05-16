@@ -88,17 +88,16 @@ function Portfolio(props) {
           styleprop="plainsight"
           subtitle="Find out what people really think"
           timeframe="2022 - In Development"
-          about="Plain Sight is a hobby project that entered development in March
-              2022 which I am currently pursuing in a team of three developers. The
+          about1="Plain Sight is a hobby project that entered development in March
+              2022 which I am currently pursuing along with two friends and very talented developers August BredBerg and Robert Paananen. The
               cross platform mobile application is written by me in React Native
               and the backend is developed with the use of Firebase Firestore
-              and Node.js.
-              
-              The idea behind Plain Sight is that in order to get data you have to also
+              and Node.js."
+          about2="The idea behind Plain Sight is that in order to get data you have to also
               provide it yourself anonymously. Data can range from anywhere between your opinion 
               on a certain politician or simply how many cups of coffee you consume each day. 
               The goal is then to be able to provide the user with interesting location based data
-              regarding opinions or statistics and tickle their curiosity about what's going on in
+              regarding opinions or statistics and tickle their curiosity about what people's opinions are on almost any topic in
               their neighborhood."
           cardsources={[
             "videos/appvid-1.mp4",
@@ -108,11 +107,11 @@ function Portfolio(props) {
             "images/appimg-4.png",
           ]}
           cardtexts={[
-            "Emphasis on Animation and design.",
-            "Representation of large amounts of user collected data.",
-            "Lots of different features to satisfy your curiosity!",
-            "Instant search engine powered by typesense.",
-            "Features dark-mode and multiple languages",
+            "This project has taught me a lot about UX and also introduced me to animations with React Native.",
+            "The big challenge of this project is to present enormous amounts of data to the user in an interesting way.",
+            "I've worked a lot with how to handle and gather geolocation data on a mobile application.",
+            "The instant search engine powered by typesense. Search data is gathered directly from Firestore",
+            "In this project I've gathered experience regarding dynamic features such as color-modes and multi-language support!",
           ]}
           cardtags={[
             "React Native",
@@ -129,11 +128,12 @@ function Portfolio(props) {
           styleprop="vegify"
           subtitle="Know what you are eating!"
           timeframe="2022 - Jan - Mar"
-          about="Vegify is a university project that I worked on together with a team of 4 other students. 
+          about1="Vegify is a university project that I worked on together with a team of 4 other students. 
         The Application allows users to scan or search for food they might be allergic to
         and then helps them make a healthy decision based on their reported allergies. The application
         also allows user to share recipies with eachother and tag and filter them according to their 
-        allergies. The mobile application is written in React Native with the help of Node.js. The intention was 
+        allergies."
+          about2=" The mobile application is written in React Native with the help of Node.js. The intention was 
         to develop a system which integrated a lot of platforms and databases in an efficient way. Food 
         data is either submitted by users and stored in vegifys own databse written in MongoDB or fetched from
         public api's such as OpenFoodFacts and Dabas."
@@ -145,11 +145,11 @@ function Portfolio(props) {
             "images/appimg-7.png",
           ]}
           cardtexts={[
-            "Scan or search for food products to know what they contain.",
+            "Scan or search for food products to find out what they contain in terms of ingredients and allergenes.",
             "Upload recipes with ingredients, steps and automatic allergene tagging.",
-            "Update ingredients by changing portion count.",
-            "Rate your favourite recipes completely anonymously.",
-            "Adapt your searches depending on your allergenes.",
+            "I've worked a lot with keeping the system dynamic. Here ingredients are updated dynamically by changing portion count.",
+            "This project allowed me to learn a lot about mobile cache. Here cache is used to prevent users from uploading multiple reviews.",
+            "Working with automatic tagging I've developed an algorithm that automatically tags recipes according to allergies.",
           ]}
           cardtags={[
             "React Native, MongoDB, Openfoodfacts, Dabas",
@@ -166,10 +166,11 @@ function Portfolio(props) {
           styleprop="quantify"
           subtitle="Upgrade Your Health One Experiment At A Time!"
           timeframe="2021 - Apr - Jun"
-          about="The amount of blood sugar related diseases is rising in Sweden and
+          about1="The amount of blood sugar related diseases is rising in Sweden and
 around the world. It is estimated that over 15% of the Swedish population has genetically an increased risk to develop type 2 diabetes.
- To help solve this growing problem, me and my team have developed a smartphone 
- application together with the company Quantify Bio.
+ To help solve this growing problem, me and my team have developed a cross platform 
+ application together with the company Quantify Bio."
+          about2="
 The goal was to, with the help of this app, give people a better understanding of how their blood sugar values are affected by their diet and
 exercise. The resulting prototype app can read values from a blood sugar
 sensor that the user wears and plot the values on a graph. The user can
@@ -186,13 +187,13 @@ Firebase"
             "videos/appvid-11.mp4",
           ]}
           cardtexts={[
-            "Create an account or sign in with google!",
+            "I've worked a lot with authentication and account creation.",
             "Keep a journal of what you eat and see how it affects your blood sugar.",
-            "Set your bodily values to get accurate blood sugar reports.",
+            "When working on this project I was first introduced to Firebase Firestore and have worked a lot with it since.",
             "Keep a journal of your workouts and their intensity.",
             "Watch, edit and delete your training and meal diary.",
-            "Create your own or choose from a set of predefined workouts.",
-            "Scan your blood sugar using the Freestyle Libre sensor.",
+            "Create your own or choose from a set of predefined workouts. Workouts are imported from Firestore.",
+            "This project allowed me to work with external hardware integration such as the freestyle libre 2",
           ]}
           cardtags={[
             "Flutter, Firebase Authentication",
