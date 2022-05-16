@@ -84,4 +84,7 @@
     right: 0;
     left: -7vw;
   }
+  .about_card_container {
+    margin-left: -5vw;
+  }
 }

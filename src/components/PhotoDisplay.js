@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { useEffect } from "react";
 import "../App.css";
 import "./pages/About.css";
 import CardItem from "./CardItem";
@@ -18,6 +18,7 @@ function PhotoDisplay(props) {
 
   function moveCards(refs, enlarge, rotation, translateX, translateY, scale) {
     if (showAnimation) {
+      console.log("desktop");
       if (enlarge) {
         refs.current.style.transform = `rotate(0deg) translateX(${translateX}px) translateY(${translateY}px) scale(${scale})`;
       } else {
@@ -44,6 +45,10 @@ function PhotoDisplay(props) {
       toggleShowAnimation(true);
     }
   };
+
+  useEffect(() => {
+    showAnimationToggler();
+  }, []);
 
   window.addEventListener("resize", showAnimationToggler);
 
