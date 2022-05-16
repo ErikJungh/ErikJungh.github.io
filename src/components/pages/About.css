@@ -16,6 +16,7 @@
   height: 80vh;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .photo_container {
