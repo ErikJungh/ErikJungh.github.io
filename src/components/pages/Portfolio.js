@@ -6,11 +6,12 @@ import { Link as LinkScroll } from "react-scroll";
 import Lottie from "react-lottie-player";
 import lottieJson from "./98428-arrow-down-purple.json";
 import Footer from "../Footer";
+import { Button } from "../Button";
 
 function Portfolio(props) {
   return (
     <>
-      <nav className="navbarPortfolio">
+      {/*<nav className="navbarPortfolio">
         <div className="portfolio_navbar_wrapper">
           <ul
             f
@@ -62,13 +63,14 @@ function Portfolio(props) {
             </li>
           </ul>
         </div>
-      </nav>
+      </nav>*/}
       <div className="portfolio_container">
         <div className="titles_container">
           <h1 className="portfolio_title">Hi,</h1>
           <h2 className="portfolio_subtitle">I'm Erik</h2>
           <h1 className="portfolio_subtitle">A Software Developer</h1>
         </div>
+
         <div className="lottie_container">
           <LinkScroll to="plainsight" spy={true} smooth={true}>
             <Lottie
@@ -79,6 +81,16 @@ function Portfolio(props) {
               style={{ width: 150, height: 150 }}
             />
           </LinkScroll>
+        </div>
+        <div className="contact_button_container">
+          <Button
+            destination={"/about"}
+            className="btns"
+            buttonStyle={"btn--outline"}
+            buttonSize={"btn--large"}
+          >
+            Contact me
+          </Button>
         </div>
       </div>
       <div className="appScroll">
@@ -206,7 +218,11 @@ Firebase"
           ]}
         />
       </div>
-      <Footer />
+      <Footer
+        class="footer_container_portfolio"
+        titleclass="footer_title_portfolio"
+        subtitleclass="footer_subtitle_portfolio"
+      />
     </>
   );
 }

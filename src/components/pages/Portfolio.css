@@ -10,7 +10,6 @@
 .quantify,
 .this_website {
   display: flex;
-  height: 300vh;
 
   align-items: center;
   justify-content: center;
@@ -111,13 +110,21 @@
   flex-direction: column;
 }
 
+.contact_button_container {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 20vw;
+  left: 20vw;
+  bottom: 5vh;
+}
+
 @media screen and (max-width: 960px) {
   .plainsight,
   .vegify,
   .quantify,
   .this_website {
     display: flex;
-    height: 300vh;
 
     align-items: center;
     justify-content: center;

@@ -2,11 +2,11 @@ import React from "react";
 import { Button } from "./Button";
 import "./Footer.css";
 
-function Footer() {
+function Footer(props) {
   return (
-    <div className="footer_container">
-      <h1 className="footer_title">Thanks for visiting my website!</h1>
-      <h1 className="footer_subtitle">You can check out more stuff here</h1>
+    <div className={props.class}>
+      <h1 className={props.titleclass}>Thanks for visiting my website!</h1>
+      <h1 className={props.subtitleclass}>You can check out more stuff here</h1>
       <div className="button_container">
         <Button
           destination={"/portfolio"}

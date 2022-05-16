@@ -8,10 +8,12 @@
 }
 .experience_container {
   position: relative;
+  align-items: center;
+  justify-content: center;
   top: 10vh;
   width: 100vw;
 }
-.experience_title {
+.experience_timeline_title {
   position: relative;
   top: 10vh;
   margin-bottom: 10vh;
@@ -40,13 +42,13 @@
   border-radius: 100vh;
   border-style: solid;
   border-width: 10px;
-  border-color: #c0d1ff;
-  background-color: #3b4f86;
+  border-color: #105652;
+  background-color: #b91646;
 }
 .timeline_line {
   width: 10px;
 
-  background-color: #3b4f86;
+  background-color: #105652;
   height: 400vh;
 }
 
@@ -102,8 +104,8 @@
   border-radius: 10vw;
   border-style: solid;
   border-width: 0.5vw;
-  border-color: #c0d1ff;
-  background-color: #3b4f86;
+  border-color: #b91646;
+  background-color: #105652;
   margin-top: 17vw;
 }
 
@@ -112,7 +114,10 @@
   height: 10vw;
   width: 18vw;
   border-radius: 20px;
-  background-color: #c0d1ff;
+  border-style: solid;
+  border-width: 0.5vw;
+  border-color: #fbf3e4;
+  background-color: #dfd8ca;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.57);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -138,7 +143,7 @@
   margin-left: 15px;
   text-align: left;
   margin-right: 15px;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
 }
 
 .timeline_mobile {
@@ -150,6 +155,10 @@
     height: 50vh;
     margin: auto;
     margin-top: 20px;
+  }
+
+  .experience_container {
+    height: 230vh;
   }
 
   .timeline {
@@ -176,13 +185,10 @@
     border-radius: 100vh;
     border-style: solid;
     border-width: 10px;
-    border-color: #c0d1ff;
-    background-color: #3b4f86;
   }
   .timeline_line_mobile {
     width: 10px;
-
-    background-color: #3b4f86;
+    background-color: #105652;
     height: 200vh;
   }
 
@@ -243,8 +249,7 @@
     border-radius: 10px;
     border-style: solid;
     border-width: 5px;
-    border-color: #c0d1ff;
-    background-color: #3b4f86;
+
     margin-top: 23vw;
     margin-left: -3vw;
   }
@@ -257,7 +262,6 @@
     width: 60vw;
 
     border-radius: 20px;
-    background-color: #c0d1ff;
   }
 
   .jobtitle {
@@ -280,8 +284,11 @@
     margin-right: 15px;
     font-size: 3vw;
   }
-  .experience_title {
+  .experience_timeline_title {
+    margin: auto;
     margin-top: -5vh;
     margin-bottom: 15vh;
+    width: 80vw;
+    font-size: 30px;
   }
 }

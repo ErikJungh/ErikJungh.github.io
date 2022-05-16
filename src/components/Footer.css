@@ -1,4 +1,4 @@
-.footer_container {
+.footer_container_portfolio {
   margin-top: 20vh;
 
   height: 60vh;
@@ -11,19 +11,68 @@
   background-size: fill;
   background-repeat: no-repeat;
 }
+.footer_container_experience {
+  margin-top: 20vh;
 
-.footer_title {
+  height: 60vh;
+  background-image: url("/public/images/backgroundexperience.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: left;
+  background-size: fill;
+  background-repeat: no-repeat;
+}
+.footer_container_about {
+  margin-top: 20vh;
+
+  height: 60vh;
+  background-image: url("/public/images/backgroundabout.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: left;
+  background-size: fill;
+  background-repeat: no-repeat;
+}
+
+.footer_title_about,
+.footer_title_experience,
+.footer_title_portfolio {
   margin-top: 10vh;
   flex: 2;
   font-size: 80px;
-  color: #4663ac;
+  text-shadow: -1px 1px 10px rgba(0, 0, 0, 0.75);
   padding: 20px;
 }
+.footer_title_portfolio {
+  color: #4663ac;
+}
+.footer_title_experience {
+  color: #105652;
+}
+.footer_title_about {
+  color: #f9ed69;
+}
 
-.footer_subtitle {
+.footer_subtitle_about,
+.footer_subtitle_experience,
+.footer_subtitle_portfolio {
+  text-shadow: -1px 1px 10px rgba(0, 0, 0, 0.75);
   flex: 2;
   font-size: 60px;
   color: #657fc0;
+}
+.footer_subtitle_portfolio {
+  color: #657fc0;
+}
+.footer_subtitle_experience {
+  color: #fbf3e4;
+}
+.footer_subtitle_about {
+  color: #f08a5d;
 }
 
 .button_container {
@@ -47,17 +96,26 @@
     bottom: 0;
   }
 
-  .footer_title {
+  .footer_title_about,
+  .footer_title_experience,
+  .footer_title_portfolio {
     font-size: 30px;
     padding: 0px;
   }
 
-  .subtitle {
+  .footer_subtitle_about,
+  .footer_subtitle_experience,
+  .footer_subtitle_portfolio {
     font-size: 20px;
   }
   .button_container {
     width: 100vw;
 
     transform: scale(0.7);
+  }
+  .footer_container {
+    margin-top: 20vh;
+
+    height: 40vh;
   }
 }

@@ -9,8 +9,8 @@ function About() {
     <>
       <div className="about">
         <div className="titles_container">
-          <h1 className="portfolio_title">This,</h1>
-          <h2 className="portfolio_subtitle">Is me</h2>
+          <h1 className="about_title">This,</h1>
+          <h2 className="about_subtitle">Is me</h2>
         </div>
         <div className="about_img_container">
           <PhotoDisplay
@@ -52,7 +52,11 @@ function About() {
               reprehenderit in voluptate velit esse{" "}
             </p>
           </div>
-          <Footer />
+          <Footer
+            class="footer_container_about"
+            titleclass="footer_title_about"
+            subtitleclass="footer_subtitle_about"
+          />
         </div>
       </div>
     </>
