@@ -32,6 +32,7 @@ function AppCardItem(props) {
                   className="cards__item__img"
                   src={props.src}
                   autoPlay
+                  playsinline
                   loop
                   muted
                 />
