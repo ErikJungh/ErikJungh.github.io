@@ -72,9 +72,9 @@ function Contact() {
               className="btns"
               buttonStyle={"btn--primary"}
               buttonSize={"btn--large"}
-              onClick="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=erik.junghahn@gmail.com"
+              onClick="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=erik@junghahn.com"
             >
-              Mail
+              E-Mail
             </Button>
           </div>
           <div className="contact_item">
