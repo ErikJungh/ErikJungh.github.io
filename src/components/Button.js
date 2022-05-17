@@ -23,7 +23,7 @@ export const Button = ({
     <Link to={destination} className="btn-mobile">
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-        onClick={onClick}
+        onClick={onClick ? () => (window.location.href = onClick) : null}
         type={type}
       >
         {children}

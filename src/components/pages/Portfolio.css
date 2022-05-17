@@ -21,7 +21,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-
+  margin-top: 20vh;
   font-size: 100px;
 }
 
@@ -88,11 +88,6 @@
   transition: all 0.2s linear;
 }
 
-.title_icon:hover {
-  transform: scale(1.1);
-  transition: all 0.2s linear;
-}
-
 .app_btn_title {
   font-size: 12;
   font-weight: 700;
@@ -116,7 +111,7 @@
   position: absolute;
   width: 20vw;
   left: 20vw;
-  bottom: 5vh;
+  bottom: 6vh;
 }
 
 @media screen and (max-width: 960px) {

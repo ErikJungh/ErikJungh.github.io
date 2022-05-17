@@ -10,7 +10,8 @@
 .portfolio_container,
 .experience {
   display: flex;
-  height: 100vh;
+  height: 60vh;
+  box-shadow: 0 12px 30px rgba(56, 125, 155, 0.77);
 }
 
 .about {
@@ -81,7 +82,7 @@
 .btn_menu {
   display: flex;
   flex-direction: row;
-  width: 70vw;
+  width: 7vw;
   background-color: #4663ac;
 }
 

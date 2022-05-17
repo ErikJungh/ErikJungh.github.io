@@ -84,9 +84,9 @@ function Portfolio(props) {
         </div>
         <div className="contact_button_container">
           <Button
-            destination={"/about"}
+            destination={"/Contact"}
             className="btns"
-            buttonStyle={"btn--outline"}
+            buttonStyle={"btn--primary"}
             buttonSize={"btn--large"}
           >
             Contact me
@@ -222,6 +222,10 @@ Firebase"
         class="footer_container_portfolio"
         titleclass="footer_title_portfolio"
         subtitleclass="footer_subtitle_portfolio"
+        primary_destination="/Experience"
+        primary_text="My Experience"
+        secondary_destination="/About"
+        secondary_text="About Me"
       />
     </>
   );

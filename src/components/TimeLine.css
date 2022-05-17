@@ -10,7 +10,7 @@
   position: relative;
   align-items: center;
   justify-content: center;
-  top: 10vh;
+  top: 30vh;
   width: 100vw;
 }
 .experience_timeline_title {
@@ -65,7 +65,7 @@
   flex-direction: column;
 
   align-items: center;
-  transition: ease-in 0.5s;
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
 }
 
 .job_logo {
@@ -87,7 +87,7 @@
 }
 .job_textbox_container:hover {
   transform: scale(1.1);
-  transition: ease-in 0.1s;
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s;
 }
 
 .job_container {
@@ -121,7 +121,7 @@
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.57);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  transition: ease-in 0.5s;
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
   padding: 6px;
 }
 

@@ -2,6 +2,7 @@ import React from "react";
 import "../../App.css";
 import "./About.css";
 import Footer from "../Footer";
+import IKnow from "../IKnow";
 
 import PhotoDisplay from "../PhotoDisplay";
 function About() {
@@ -33,7 +34,7 @@ function About() {
           />
           <div className="photo_container">
             <p className="photo_text">
-              Currently I'm persuing my masters in software development at
+              Currently I'm pursuing my masters in software development at
               Uppsala University and also at the same time doing my best to have
               as much fun as possible. I love making people laugh and have fun
               and have therefor regularly been hosting competitions and games
@@ -50,13 +51,21 @@ function About() {
               things and have a tendancy of getting very invested when finding
               something new that I find interesting. This website for example
               was written and designed as my first ever project in React.js in 3
-              days and I had a blast doing so!
+              days without the use of any imported widgets and I had a blast
+              doing so!
             </p>
           </div>
+          <h1 className="know_header">I Know</h1>
+          <IKnow />
+
           <Footer
             class="footer_container_about"
             titleclass="footer_title_about"
             subtitleclass="footer_subtitle_about"
+            primary_destination="/Portfolio"
+            primary_text="My Portfolio"
+            secondary_destination="/Contact"
+            secondary_text="Contact Me"
           />
         </div>
       </div>

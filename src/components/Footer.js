@@ -9,20 +9,20 @@ function Footer(props) {
       <h1 className={props.subtitleclass}>You can check out more stuff here</h1>
       <div className="button_container">
         <Button
-          destination={"/portfolio"}
+          destination={props.primary_destination}
           className="btns"
           buttonStyle={"btn--outline"}
           buttonSize={"btn--large"}
         >
-          To My Portfolio
+          {props.primary_text}
         </Button>
         <Button
-          destination={"/about"}
+          destination={props.secondary_destination}
           className="btns"
           buttonStyle={"btn--primary"}
           buttonSize={"btn--large"}
         >
-          About Me
+          {props.secondary_text}
         </Button>
       </div>
     </div>

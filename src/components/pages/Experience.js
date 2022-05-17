@@ -29,9 +29,9 @@ function Experience() {
         </div>
         <div className="contact_button_container">
           <Button
-            destination={"/about"}
+            destination={"/Contact"}
             className="btns"
-            buttonStyle={"btn--outline"}
+            buttonStyle={"btn--primary"}
             buttonSize={"btn--large"}
           >
             Contact me
@@ -48,6 +48,10 @@ function Experience() {
         class="footer_container_experience"
         titleclass="footer_title_experience"
         subtitleclass="footer_subtitle_experience"
+        primary_destination="\Portfolio"
+        primary_text="My Portfolio"
+        secondary_destination="\About"
+        secondary_text="About Me"
       />
     </>
   );

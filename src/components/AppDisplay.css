@@ -23,7 +23,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
+  margin-top: 30vh;
   color: #fff;
 }
 .vegify {
@@ -143,9 +143,6 @@
   }
   .third_card {
     display: none;
-  }
-  .display_container  {
-    margin-top: 20vh;
   }
 }
 
