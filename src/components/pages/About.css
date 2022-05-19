@@ -34,7 +34,7 @@
 
 .animation_container_left {
   position: relative;
-  left: 10vw;
+  left: 5vw;
 
   transform: rotate(-10deg);
   transition: cubic-bezier(0.23, 1, 0.32, 1) 0.55s;
@@ -46,7 +46,7 @@
 }
 .animation_container_right {
   position: relative;
-  right: 10vw;
+  right: 5vw;
   transform: rotate(10deg);
   transition: cubic-bezier(0.23, 1, 0.32, 1) 0.55s;
 }
@@ -60,6 +60,7 @@
 
 .know_header {
   color: #f08a5d;
+  font-size: 120px;
 }
 
 .know_row {
@@ -108,13 +109,14 @@
     height: 60vw;
     position: relative;
     top: 5vw;
+    z-index: 2;
     left: -5vw;
   }
   .animation_container_right {
     width: 30vw;
     position: relative;
     right: 0;
-    left: -7vw;
+    left: -10vw;
   }
   .about_card_container {
     margin-left: -5vw;

@@ -15,8 +15,8 @@ function About() {
         </div>
         <div className="about_img_container">
           <PhotoDisplay
-            srcs={["images/img-9.jpg", "images/img-8.jpg", "images/img-7.jpg"]}
-            texts={["text1", "text2", "text3"]}
+            srcs={["images/about-1.jpg", "images/about-2.jpg"]}
+            texts={["text1", "text2"]}
           />
           <div className="photo_container">
             <p className="photo_text">
@@ -29,8 +29,8 @@ function About() {
             </p>
           </div>
           <PhotoDisplay
-            srcs={["images/img-9.jpg", "images/img-8.jpg", "images/img-7.jpg"]}
-            texts={["text1", "text2", "text3"]}
+            srcs={["images/about-3.jpg", "images/about-4.jpg"]}
+            texts={["text1", "text2"]}
           />
           <div className="photo_container">
             <p className="photo_text">
@@ -41,10 +41,7 @@ function About() {
               with special emphasis on creativity and sometimes making a mess.
             </p>
           </div>
-          <PhotoDisplay
-            srcs={["images/img-9.jpg", "images/img-8.jpg", "images/img-7.jpg"]}
-            texts={["text1", "text2", "text3"]}
-          />
+
           <div className="photo_container">
             <p className="photo_text">
               I'm a very dedicated person with a huge apetite for learning new

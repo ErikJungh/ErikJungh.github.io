@@ -27,9 +27,9 @@ function PhotoDisplay(props) {
     } else {
       if (enlarge) {
         refs.current.style.transform = `rotate(0deg) translateX(${getRndInteger(
-          -25,
-          25
-        )}px) translateY(${translateY}px) scale(0.8)`;
+          -15,
+          15
+        )}px) translateY(${getRndInteger(-50, 50)}px) scale(0.9)`;
       } else {
         refs.current.style.transform = `rotate(${rotation}deg) translateX(0px) translateY(0px) scale(1)`;
       }
@@ -60,33 +60,23 @@ function PhotoDisplay(props) {
             threshold={0.85}
             as="div"
             onChange={(inView, entry, threshold) =>
-              moveCards(leftCard, inView, -10, -200, 0, 1.1)
+              moveCards(leftCard, inView, -10, -120, 0, 1.1)
             }
           >
             <div className="animation_container_left" ref={leftCard}>
               <CardItem src={props.srcs[0]} text={props.texts[0]} />
             </div>
           </InView>
+
           <InView
             threshold={0.85}
             as="div"
             onChange={(inView, entry, threshold) =>
-              moveCards(centerCard, inView, 0, 0, 0, 1.1)
-            }
-          >
-            <div className="animation_container_center" ref={centerCard}>
-              <CardItem src={props.srcs[1]} text={props.texts[1]} />
-            </div>
-          </InView>
-          <InView
-            threshold={0.85}
-            as="div"
-            onChange={(inView, entry, threshold) =>
-              moveCards(rightCard, inView, 10, 200, 0, 1.1)
+              moveCards(rightCard, inView, 10, 120, 0, 1.1)
             }
           >
             <div className="animation_container_right" ref={rightCard}>
-              <CardItem src={props.srcs[2]} text={props.texts[2]} />
+              <CardItem src={props.srcs[1]} text={props.texts[1]} />
             </div>
           </InView>
         </div>

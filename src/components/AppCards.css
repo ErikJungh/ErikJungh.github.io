@@ -125,16 +125,11 @@ h1 {
   font-weight: 700;
 }
 
-@media only screen and (min-width: 1200px) {
-  .content__blog__container {
-    width: 84%;
-    display: flex;
-  }
-}
-
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+    height: 80vw;
+    width: 60vw;
   }
   .cards {
     padding: 0;
@@ -160,15 +155,7 @@ h1 {
     transition: none;
     margin-top: 5vh;
   }
-  .cards__item__pic-wrap {
-    position: relative;
 
-    height: 78vw;
-    width: 100%;
-  }
-  .cards__item__link {
-    width: 35vw;
-  }
   .cards_items {
     display: flex;
   }
