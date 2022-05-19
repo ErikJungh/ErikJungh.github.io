@@ -114,7 +114,7 @@
   bottom: 6vh;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 10240px) {
   .plainsight,
   .vegify,
   .quantify,
@@ -130,9 +130,13 @@
     display: none;
   }
   .contact_button_container {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
     width: 50vw;
+    margin-left: 5vw;
+    text-align: center;
 
-    left: 100px;
-    margin-top: 50vh;
+    bottom: 6vh;
   }
 }

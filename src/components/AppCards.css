@@ -20,18 +20,20 @@ h1 {
 
 .cards__wrapper {
   position: relative;
+  justify-content: center;
+  align-items: center;
 
   margin: auto;
 }
 
 .cards__items {
-  margin-bottom: 24px;
+  display: flex;
 }
 
 .cards__item {
   display: flex;
   flex: 1;
-  width: 26vh;
+
   margin: 0 1rem;
   border-radius: 10px;
   align-items: center;
@@ -76,7 +78,7 @@ h1 {
   box-sizing: border-box;
 }
 .cards_inview {
-  width: 100%;
+  width: 100vw;
 
   justify-content: center;
   align-items: center;
@@ -126,11 +128,6 @@ h1 {
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .cards__items {
     display: flex;
   }
 }
@@ -141,6 +138,9 @@ h1 {
   }
   .cards {
     padding: 0;
+
+    display: flex;
+    flex-direction: row;
   }
 
   .about_text {
@@ -152,13 +152,13 @@ h1 {
     padding: 5%;
     text-align: center;
     position: relative;
-    left: auto;
 
     width: 75vw;
   }
   .cards__container {
     transform: none;
     transition: none;
+    margin-top: 5vh;
   }
   .cards__item__pic-wrap {
     position: relative;
@@ -168,11 +168,9 @@ h1 {
   }
   .cards__item__link {
     width: 35vw;
-    height: 103vw;
   }
   .cards_items {
-    width: 100vw;
-    margin: auto;
+    display: flex;
   }
   .cards__item__info {
     padding: 5px 10px 10px;
