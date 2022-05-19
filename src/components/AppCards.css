@@ -124,11 +124,44 @@ h1 {
   font-size: 22px;
   font-weight: 700;
 }
+.about__cards__item__img {
+  height: 22vw;
+}
+
+.about__cards__item__link {
+  height: 22vw;
+  width: 16vw;
+}
+.about__cards__item {
+  margin-bottom: 2rem;
+  height: 22vw;
+  width: 16vw;
+}
 
 @media only screen and (max-width: 1024px) {
   .cards__item {
+    margin-bottom: 10vh;
+    height: 70vw;
+    width: 32vw;
+  }
+  .cards__item__img {
+    height: 100vw;
+    width: 32vw;
+  }
+  .about__cards__item__img {
+    height: 75vw;
+  }
+  .cards__item__link {
+    height: 100vw;
+    width: 32vw;
+  }
+  .about__cards__item__link {
+    height: 70vw;
+    width: 42vw;
+  }
+  .about__cards__item {
     margin-bottom: 2rem;
-    height: 80vw;
+    height: 50vw;
     width: 60vw;
   }
   .cards {
@@ -141,6 +174,7 @@ h1 {
   .about_text {
     font-size: 16px;
     font-weight: 700;
+    margin-bottom: 10vw;
   }
 
   .about_container {
@@ -156,8 +190,12 @@ h1 {
     margin-top: 5vh;
   }
 
-  .cards_items {
+  .cards__items {
     display: flex;
+    width: 90vw;
+  }
+  .cards__wrapper {
+    width: 90vw;
   }
   .cards__item__info {
     padding: 5px 10px 10px;

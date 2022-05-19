@@ -16,7 +16,6 @@
   height: 80vh;
   align-items: center;
   justify-content: center;
-  overflow-x: hidden;
 }
 
 .photo_container {
@@ -99,14 +98,18 @@
     color: black;
   }
 
+  .card_row {
+    overflow: hidden;
+  }
+
   .animation_container_left {
     width: 30vw;
     position: relative;
-    left: -10vw;
+    left: -25vw;
   }
   .animation_container_center {
     width: 30vw;
-    height: 60vw;
+
     position: relative;
     top: 5vw;
     z-index: 2;
@@ -115,8 +118,8 @@
   .animation_container_right {
     width: 30vw;
     position: relative;
-    right: 0;
-    left: -10vw;
+    right: 10vw;
+    left: 5vw;
   }
   .about_card_container {
     margin-left: -5vw;
