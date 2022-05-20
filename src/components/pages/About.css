@@ -21,13 +21,13 @@
 .photo_container {
   width: 100vw;
   height: 30vh;
-  margin-top: 10vh;
 }
 .photo_text {
   margin: auto;
   text-align: center;
   width: 60vw;
   font-size: 30px;
+  margin-top: 20vh;
 
   color: black;
 }
