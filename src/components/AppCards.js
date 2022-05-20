@@ -41,7 +41,7 @@ function AppCards(props) {
                 video={true}
               />
             </ul>
-            <h1>About {props.title}</h1>
+            <h1 className="about_app_title">About {props.title}</h1>
             <div className="about_container">
               <p className="about_text">{props.about1}</p>
             </div>
