@@ -33,7 +33,7 @@ function AppCardItem(props) {
                   autoPlay
                   loop
                   muted
-                  playsInLine
+                  playsinline
                 />
               </InView>
             ) : (
