@@ -33,7 +33,7 @@ function AppCardItem(props) {
                   autoPlay
                   loop
                   muted
-                  playsinline
+                  webkit-playsinline={true}
                 />
               </InView>
             ) : (
