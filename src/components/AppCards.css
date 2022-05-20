@@ -126,6 +126,7 @@ h1 {
 }
 .about__cards__item__img {
   height: 22vw;
+  border-radius: 10px;
 }
 
 .about__cards__item__link {
@@ -133,7 +134,7 @@ h1 {
   width: 16vw;
 }
 .about__cards__item {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   height: 22vw;
   width: 16vw;
 }
