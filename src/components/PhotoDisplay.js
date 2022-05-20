@@ -60,7 +60,7 @@ function PhotoDisplay(props) {
             threshold={0.85}
             as="div"
             onChange={(inView, entry, threshold) =>
-              moveCards(leftCard, inView, -10, -120, 0, 1.1)
+              moveCards(leftCard, inView, -10, -200, 0, 1.1)
             }
           >
             <div className="animation_container_left" ref={leftCard}>
@@ -72,7 +72,7 @@ function PhotoDisplay(props) {
             threshold={0.85}
             as="div"
             onChange={(inView, entry, threshold) =>
-              moveCards(rightCard, inView, 10, 120, 0, 1.1)
+              moveCards(rightCard, inView, 10, 200, 0, 1.1)
             }
           >
             <div className="animation_container_right" ref={rightCard}>
