@@ -48,9 +48,9 @@ function Experience() {
         class="footer_container_experience"
         titleclass="footer_title_experience"
         subtitleclass="footer_subtitle_experience"
-        primary_destination="\Portfolio"
+        primary_destination="/Portfolio"
         primary_text="My Portfolio"
-        secondary_destination="\About"
+        secondary_destination="/About"
         secondary_text="About Me"
       />
     </>
