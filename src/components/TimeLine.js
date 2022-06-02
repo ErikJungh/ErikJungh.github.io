@@ -115,34 +115,55 @@ function TimeLine() {
       <div className="timeline_mobile">
         <div className="icons_list_mobile">
           <div className="logo_container">
-            <img className="job_logo" src="images/timeline/taby.png"></img>
+            <img
+              className="job_logo"
+              src="images/timeline/taby.png"
+              alt=""
+            ></img>
             <h1 className="job_date">2014</h1>
           </div>
           <div className="logo_container">
-            <img className="job_logo" src="images/timeline/tc.jpeg"></img>
+            <img
+              className="job_logo"
+              src="images/timeline/tc.jpeg"
+              alt=""
+            ></img>
             <h1 className="job_date">2017</h1>
           </div>
           <div className="logo_container">
-            <img className="job_logo" src="images/timeline/uu.png"></img>
+            <img className="job_logo" src="images/timeline/uu.png" alt=""></img>
             <h1 className="job_date">2018</h1>
           </div>
           <div className="logo_container">
-            <img className="job_logo" src="images/timeline/visolit.png"></img>
+            <img
+              className="job_logo"
+              src="images/timeline/visolit.png"
+              alt=""
+            ></img>
             <h1 className="job_date">2019</h1>
           </div>
           <div className="logo_container">
             <img
               className="job_logo"
               src="images/timeline/quantifylogo.png"
+              alt=""
             ></img>
             <h1 className="job_date">2020</h1>
           </div>
           <div className="logo_container">
-            <img className="job_logo" src="images/timeline/cytiva.png"></img>
+            <img
+              className="job_logo"
+              src="images/timeline/cytiva.png"
+              alt=""
+            ></img>
             <h1 className="job_date">2021</h1>
           </div>
           <div className="logo_container">
-            <img className="job_logo" src="images/timeline/swace.png"></img>
+            <img
+              className="job_logo"
+              src="images/timeline/swace.png"
+              alt=""
+            ></img>
             <h1 className="job_date">2022</h1>
           </div>
           <div className="logo_container">
